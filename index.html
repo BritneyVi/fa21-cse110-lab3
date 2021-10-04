@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mock Meeting Minutes</title>
+        <meta name="description" content="Contents of the October 2nd meeeting">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <nav>
+        <a href = "index.html">Oct 2 2021</a>
+    </nav>
+    <header>
+        <h1>Mock Meeting Minutes</h1>
+        <h2>October 2, 2021</h2>
+    </header>
+    <hr>
+    <body>
+        <section>
+        <h3>Members In Attendance</h3>
+        <ul>
+            <li>Billy Bob</li>
+            <li>Belinda B</li>
+            <li>Banjo Babe</li>
+        </ul>
+        </section>
+        
+        <main>
+            <section>
+            <div class="agenda">
+                <h3>Agenda</h3>
+                <ul>
+                    <li><strong>URGENT: DISCUSS XYZ</strong></li>
+                    <li>
+                        <b>Old Business: </b>
+                        <ol>
+                            <li>Overview of Active Tasks (assigned last meeting)</li>
+                            <li>Updates on Billy Bob's issue with task x</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <b>New Business:</b>
+                        <ol>
+                            <li>Give individual progress updates</li>
+                            <li>Discuss <i>Current Velocity</i></li>
+                            <li>Planning Poker</li>
+                            <li>Programmer of the Week:</li>
+                            <img src = "CSE110_Lab2_img.PNG" alt = "IMage of Dog That Says Programmer of the Week">
+                            <li>Take Questions and Concerns</li>
+                            <li>Group scream of the week
+                                <audio controls autoplay>
+                                    <source src="CSE110_Lab2.mp3" type = "audio/mpeg">
+                                </audio>
+                            </li>
+                            <li>Peacing Out 
+                                <video controls autoplay>
+                                    <source src="CSE110_Lab2_Vid.mp4" type="video/mp4">
+                                </video>
+                            </li>
+
+
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            
+            <section>
+                <h3>Questions Raised Today</h3>
+                <ul>
+                    <li>Billy Bob asked....</li>
+                    <li>Banjo said <strong>There was a merge conflict in the repo</strong></li>
+                </ul>
+            </section>
+        </main>
+    </body>
+
+    <br>
+    <details>
+        <summary>I want to know about you!</summary>
+        <p>Please fill out this form to let me learn more about you!</p>
+    </details>
+    <br>
+
+    <form name = "about you">
+        <fieldset>
+            <legend>Name:</legend>
+            <input type="text", id="pname", name="pname">
+        </fieldset>
+
+        <fieldset>
+            <legend>Pronouns:</legend>
+            <input type="checkbox", id="she", name="she",value="she">
+            <label for="she">she/her/hers</label><br/>
+            <input type="checkbox", id="he", name="he",value="he">
+            <label for="he">he/him/his</label><br/>
+            <input type="checkbox", id="they", name="they",value="they">
+            <label for="they">they/them/theirs</label><br/>
+            <input type="checkbox", id="other", name="other",value="other">
+            <label for="other">other</label><br/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Birthday</legend>
+            <input type="date", id="birthday", name="birthday">
+        </fieldset>
+
+        <fieldset>
+            <legend>Favorite Common Household Pet</legend>
+            <input type="radio", id="dog", name="dog">
+            <label for="dog">dog</label><br/>
+            <input type="radio", id="cat", name="cat">
+            <label for="cat">cat</label><br/>
+            <input type="radio", id="other", name="other">
+            <label for="other">other</label><br/>
+        </fieldset>
+        <br>
+        <input type="button" onclick="alert('uwu')" value="Try Me">
+        <br>
+        <br>
+        <textarea id="about" name="about" rows="4" cols="50">
+        About me: 
+        I am a gemini sun and ENTP.
+        Do you believe in astrology? 
+        </textarea>
+        <br>
+        <fieldset>
+            <legend>Tell me about yourself :)</legend>
+            <input type="text", id="about", name="about">
+        </fieldset>
+
+        <label for="starsigns">Choose your starsign:</label>
+        <input list="starsigns" name="starsigns" id="starsigns">
+        <fieldset>
+        <datalist id="starsigns">
+            <option value="Aries">
+            <option value="Taurus">
+            <option value="Gemini">
+            <option value="Cancer">
+            <option value="Virgo">
+            <option value="Libra">
+            <option value="Leo">
+            <option value="Scorpio">
+            <option value="Caprisorn">
+            <option value="Pisces">
+            <option value="Aquarius">
+            <option value="Sagittarius">
+        </datalist>
+        </fieldset>
+        
+        <br>
+
+        <fieldset>
+            <label for="driving">Do you drive?</label>
+
+            <select name="driving" id="driving">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <footer>
+        CSE 110 Fall 2021
+        <p><span><em>Our mission is to become true engineers</em></span></p>
+    </footer>
+</html>

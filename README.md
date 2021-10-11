@@ -1,2 +1,2 @@
 Link to Website: 
-https://britneyvi.github.io/Lab2/
+https://britneyvi.github.io/fa21-cse110-lab3/
